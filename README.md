@@ -1,34 +1,30 @@
-# Big-Data-Weather-Analysis
+# 🌧️ Big Data Weather Analysis & Predictive Pipeline
 
-
-
-\## 1. Project Description
-
+## 1. Project Description
 An end-to-end data workflow engineered to handle, clean, and process historical climate observations across Australia, applying machine learning algorithms to classify and predict regional precipitation events.
 
-
-
-\## 2. Architecture Diagram \& Workflow
-
+## 2. Architecture Diagram & Workflow
 Data Source (weatherAUS.csv) 
+   └── Preprocessing & ETL (Python / Pandas)
+       └── Analytics Pipeline & Feature Engineering (Jupyter Notebook)
+           └── Machine Learning Classification (Scikit-Learn Logistic Regression)
+               └── Data Visualization (Tableau Public Interactive Dashboard)
 
-&#x20;  └── Preprocessing \& ETL (Python / Pandas)
-
-&#x20;      └── Analytics Pipeline \& Feature Engineering (Jupyter Notebook)
-
-&#x20;          └── Machine Learning Classification (Scikit-Learn Logistic Regression)
-
-&#x20;              └── Data Visualization (Tableau Public Interactive Dashboard)
+## 3. Installation & Usage
+1. Clone this repository to your local computer.
+2. Install the necessary processing and modeling dependencies:
 
 
+pip install pandas scikit-learn
+`` bash 
 
-\## 3. Installation \& Usage
 
-1\. Clone this repository to your local computer.
+## 4. Key Findings & Business Value
+Built a binary classification model achieving an evaluation accuracy score of 83.35% for predicting whether it will rain tomorrow.
 
-2\. Install the necessary processing and modeling dependencies:
+Successfully generated aggregated datasets summarizing average rainfall and humidity levels across various geographic locations.
 
-&#x20;  ```bash
+## 5. Interactive Presentation Dashboard
+The live data visualizations for this big data pipeline can be accessed here:
 
-&#x20;  pip install pandas scikit-learn
-
+Project Presentation Link: https://prod-ch-a.online.tableau.com/t/alexoltean225-3b7dfac96c/authoring/BigDataWeatherAnalysisPipeline/Sheet1#1
