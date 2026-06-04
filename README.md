@@ -24,7 +24,4 @@ Built a binary classification model achieving an evaluation accuracy score of 83
 
 Successfully generated aggregated datasets summarizing average rainfall and humidity levels across various geographic locations.
 
-## 5. Interactive Presentation Dashboard
-The live data visualizations for this big data pipeline can be accessed here:
 
-Project Presentation Link: https://prod-ch-a.online.tableau.com/t/alexoltean225-3b7dfac96c/authoring/BigDataWeatherAnalysisPipeline/Sheet1#1
